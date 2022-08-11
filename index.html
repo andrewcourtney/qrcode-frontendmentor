@@ -21,19 +21,19 @@
       text-align: center;
     }
 
-    h2,
-    p {
+    .card__title,
+    .card__paragraph{
       font-family: 'Outfit', Arial, Helvetica, sans-serif;
     }
 
-    h2 {
+    .card__title{
       padding: 0 20px;
       font-size: 1.4rem;
       font-weight: 700;
       color: hsl(218, 44%, 22%);
     }
 
-    p {
+    .card__paragraph{
       padding: 0 24px;
       font-size: 1rem;
       font-weight: 400;
@@ -41,7 +41,7 @@
 
     }
 
-    img{
+    .qr-image{
       max-width: 100%;
     }
 
@@ -78,11 +78,10 @@
 </head>
 
 <body>
-
   <div class="card border curved-edge">
-    <img src="images/image-qr-code.png" alt="QR Code" title="QR Code" class="curved-edge" />
-    <h2>Improve your front-end skills by building projects</h2>
-    <p>Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
+    <img src="images/image-qr-code.png" alt="QR Code" title="QR Code" class="qr-image curved-edge" />
+    <h2 class="card__title">Improve your front-end skills by building projects</h2>
+    <p class="card__paragraph">Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
   </div>
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
